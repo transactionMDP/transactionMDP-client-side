@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e54fd92a-9dfc-4c89-abe1-90bc808e6418" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/APIUtils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransferForm.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2070">
+              <caret line="155" column="29" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransferPage.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2355">
+              <caret line="176" column="8" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransfersTable.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3960">
+              <caret line="280" column="49" selection-start-line="280" selection-start-column="49" selection-end-line="280" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#180#279#0" expanded="true" />
+                <element signature="e#763#794#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/variables/constants.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="33" selection-start-column="33" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getRoutes</find>
+      <find>cancel</find>
+      <find>cance</find>
+      <find>git</find>
+      <find>toggleModal</find>
+      <find>Toast</find>
+      <find>current</find>
+      <find>isAu</find>
+      <find>rbc-today</find>
+      <find>makeData</find>
+      <find>requestData</find>
+      <find>form-group</find>
+      <find>rawData</find>
+      <find>fetchData</find>
+      <find>background-c</find>
+      <find>btn</find>
+      <find>font-weight</find>
+      <find>rt-th</find>
+      <find>info</find>
+      <find>.input-group-focus:not(.has-danger):not(.has-success)</find>
+      <find>not(.has-success)</find>
+      <find>.off-canvas-sidebar</find>
+      <find>sidebar</find>
+      <find>-4</find>
+      <find>off-canvas-sidebar</find>
+      <find>font-size</find>
+      <find>loadCommissionData</find>
+      <find>transfers</find>
+      <find>applyedRate</find>
+      <find>data</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>#ff0000</replace>
+      <replace>$red</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/redux/sagas</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bcp-transactionMDP-client-side" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/custom/_input-group2.scss" />
+        <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/custom/_navbar.scss" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/db2.json" />
+        <option value="$PROJECT_DIR$/node_modules/json-server/db.json" />
+        <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/custom/_input-group.scss" />
+        <option value="$PROJECT_DIR$/src/views/User/Transfer/Transfer.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx" />
+        <option value="$PROJECT_DIR$/src/routes/dashboardAdmin.jsx" />
+        <option value="$PROJECT_DIR$/src/views/User/Transfer/TransfersTableCTN.jsx" />
+        <option value="$PROJECT_DIR$/src/routes/dashboardUser.jsx" />
+        <option value="$PROJECT_DIR$/src/layouts/Dashboard/Dashboard.jsx" />
+        <option value="$PROJECT_DIR$/src/redux/sagas/api-saga.js" />
+        <option value="$PROJECT_DIR$/src/components/LoadingIndicator/LoadingIndicator.js" />
+        <option value="$PROJECT_DIR$/src/views/User/Dashboard/Dashboard.jsx" />
+        <option value="$PROJECT_DIR$/src/views/NotFound.jsx" />
+        <option value="$PROJECT_DIR$/src/redux/constants/action-types.js" />
+        <option value="$PROJECT_DIR$/src/redux/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Navbars/AdminNavbar.jsx" />
+        <option value="$PROJECT_DIR$/src/redux/actions/index.js" />
+        <option value="$PROJECT_DIR$/src/redux/middleware/index.js" />
+        <option value="$PROJECT_DIR$/src/redux/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Navbars/UserNavbar.jsx" />
+        <option value="$PROJECT_DIR$/src/components/LoadingIndicator/LoadingIndicator.jsx" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/views/User/Transfer/TransfersTable2.jsx" />
+        <option value="$PROJECT_DIR$/src/routes/PrivateRoute.js" />
+        <option value="$PROJECT_DIR$/src/views/User/Transfer/TransferPage.jsx" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/routes/PrivateRoute.jsx" />
+        <option value="$PROJECT_DIR$/node_modules/react-table/react-table.css" />
+        <option value="$PROJECT_DIR$/src/assets/css/react-table.css" />
+        <option value="$PROJECT_DIR$/src/views/User/Transfer/Utils.js" />
+        <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/react-differences.scss" />
+        <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/plugins/_plugin-react-table.scss" />
+        <option value="$PROJECT_DIR$/src/views/User/Transfer/TransfersTable3.jsx" />
+        <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/custom/_white-content.scss" />
+        <option value="$PROJECT_DIR$/src/assets/css/black-dashboard-react.css" />
+        <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react.scss" />
+        <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/custom/_sidebar-and-main-panel.scss" />
+        <option value="$PROJECT_DIR$/src/views/User/Transfer/TransferIntraAgency.jsx" />
+        <option value="$PROJECT_DIR$/src/views/Login.jsx" />
+        <option value="$PROJECT_DIR$/src/views/User/Transfer/TransfersTable.jsx" />
+        <option value="$PROJECT_DIR$/src/routes/DashboardUser.jsx" />
+        <option value="$PROJECT_DIR$/src/db.json" />
+        <option value="$PROJECT_DIR$/src/views/User/Dashboard.jsx" />
+        <option value="$PROJECT_DIR$/src/variables/constants.js" />
+        <option value="$PROJECT_DIR$/src/util/APIUtils.js" />
+        <option value="$PROJECT_DIR$/src/views/User/Transfer/TransferForm.jsx" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="809" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="transactionMDP-client-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transactionMDP-client-side" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554932847266" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views/User" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/redux/constants" />
+      <recent name="$PROJECT_DIR$/src/variables" />
+      <recent name="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/custom" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/css" />
+      <recent name="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/plugins" />
+      <recent name="$PROJECT_DIR$/src/views/User/Transfer" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/util" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e54fd92a-9dfc-4c89-abe1-90bc808e6418" name="Default Changelist" comment="" />
+      <created>1552078979381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552078979381</updated>
+      <workItem from="1552078980694" duration="357000" />
+      <workItem from="1552316914051" duration="509000" />
+      <workItem from="1552332089990" duration="1201000" />
+      <workItem from="1552400745523" duration="2665000" />
+      <workItem from="1552411003725" duration="5818000" />
+      <workItem from="1552428618471" duration="1303000" />
+      <workItem from="1552597421787" duration="290000" />
+      <workItem from="1552636325435" duration="2527000" />
+      <workItem from="1552643505994" duration="1256000" />
+      <workItem from="1552645066694" duration="1428000" />
+      <workItem from="1552646679880" duration="4423000" />
+      <workItem from="1552667316682" duration="3484000" />
+      <workItem from="1552685650858" duration="2320000" />
+      <workItem from="1552778670523" duration="433000" />
+      <workItem from="1552896533731" duration="457000" />
+      <workItem from="1552907720469" duration="5106000" />
+      <workItem from="1552917380403" duration="3184000" />
+      <workItem from="1552929365365" duration="7452000" />
+      <workItem from="1552982042504" duration="10881000" />
+      <workItem from="1553025071658" duration="991000" />
+      <workItem from="1553067807404" duration="12512000" />
+      <workItem from="1553086858519" duration="1063000" />
+      <workItem from="1553104407921" duration="7640000" />
+      <workItem from="1553178900987" duration="339000" />
+      <workItem from="1553190340642" duration="2507000" />
+      <workItem from="1553292212444" duration="4514000" />
+      <workItem from="1553341648656" duration="13728000" />
+      <workItem from="1553380145577" duration="3492000" />
+      <workItem from="1553430834000" duration="21439000" />
+      <workItem from="1553499523606" duration="3208000" />
+      <workItem from="1553504879161" duration="20000" />
+      <workItem from="1553504933452" duration="31295000" />
+      <workItem from="1553586110415" duration="2935000" />
+      <workItem from="1553589684368" duration="1186000" />
+      <workItem from="1553593059185" duration="10117000" />
+      <workItem from="1553672973289" duration="7613000" />
+      <workItem from="1553758783646" duration="25105000" />
+      <workItem from="1553845213025" duration="15264000" />
+      <workItem from="1553949017446" duration="20678000" />
+      <workItem from="1554041039753" duration="14852000" />
+      <workItem from="1554109689811" duration="16198000" />
+      <workItem from="1554141405499" duration="3216000" />
+      <workItem from="1554161773999" duration="998000" />
+      <workItem from="1554191048703" duration="21362000" />
+      <workItem from="1554277844279" duration="15110000" />
+      <workItem from="1554330081919" duration="93000" />
+      <workItem from="1554364422215" duration="19371000" />
+      <workItem from="1554461502063" duration="562000" />
+      <workItem from="1554473208701" duration="10427000" />
+      <workItem from="1554555239325" duration="2048000" />
+      <workItem from="1554557636625" duration="13854000" />
+      <workItem from="1554637877301" duration="5468000" />
+      <workItem from="1554649135534" duration="4891000" />
+      <workItem from="1554670598632" duration="1485000" />
+      <workItem from="1554709452258" duration="21367000" />
+      <workItem from="1554795636693" duration="16409000" />
+      <workItem from="1554883278126" duration="9753000" />
+      <workItem from="1554916263288" duration="504000" />
+      <workItem from="1554932985756" duration="22000" />
+    </task>
+    <task id="LOCAL-00001" summary="update of transfers table for all the users">
+      <created>1554330161405</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554330161405</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add redux-saga to get current user data">
+      <created>1554483029653</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554483029654</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add redux-saga to get current user data">
+      <created>1554485781601</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554485781601</updated>
+    </task>
+    <task id="LOCAL-00004" summary="build project">
+      <created>1554556840100</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554556840100</updated>
+    </task>
+    <task id="LOCAL-00005" summary="build project">
+      <created>1554558736895</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554558736895</updated>
+    </task>
+    <task id="LOCAL-00006" summary="build project">
+      <created>1554563232688</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554563232688</updated>
+    </task>
+    <task id="LOCAL-00007" summary="build project">
+      <created>1554564814954</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554564814954</updated>
+    </task>
+    <task id="LOCAL-00008" summary="build project">
+      <created>1554590716519</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554590716519</updated>
+    </task>
+    <task id="LOCAL-00009" summary="build project">
+      <created>1554641108121</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554641108121</updated>
+    </task>
+    <task id="LOCAL-00010" summary="build project">
+      <created>1554641377799</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554641377800</updated>
+    </task>
+    <task id="LOCAL-00011" summary="build project">
+      <created>1554642097689</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554642097689</updated>
+    </task>
+    <task id="LOCAL-00012" summary="build project">
+      <created>1554653163752</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554653163752</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add transactions react table">
+      <created>1554745158924</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554745158924</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add transactions react table">
+      <created>1554891864849</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1554891864850</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="418730000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21459228" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21445782" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3297568" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297568" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2732475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18554217" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3297568" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297568" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/bcp-transactionMDP-client-side" />
+    </ignored-roots>
+    <MESSAGE value="update of transfers table for all the users" />
+    <MESSAGE value="add redux-saga to get current user data" />
+    <MESSAGE value="build project" />
+    <MESSAGE value="add transactions react table" />
+    <option name="LAST_COMMIT_MESSAGE" value="add transactions react table" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_jumbotron.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_list-group.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_media.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_pagination.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_popover.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_print.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_progress.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_reboot.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_root.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_tables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_tooltip.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_transitions.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_type.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_utilities.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/_alerts.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/_badges.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/_carousel.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/_checkboxes-radio.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/_example-pages.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/_inputs.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/_sections.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/_type.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/react-differences.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/plugins/_plugin-react-datetime.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/custom/_sidebar-and-main-panel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="615" column="5" selection-start-line="615" selection-start-column="5" selection-end-line="615" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/custom/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5715">
+          <caret line="381" column="10" selection-start-line="381" selection-start-column="1" selection-end-line="381" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransfersTable2.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransferIntraCTN.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="147" column="11" selection-start-line="147" selection-start-column="11" selection-end-line="147" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/DashboardUser.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#25#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-853">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/User/Dashboard.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/APIUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransferForm.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="155" column="29" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransferPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2355">
+          <caret line="176" column="8" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransfersTable.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3960">
+          <caret line="280" column="49" selection-start-line="280" selection-start-column="49" selection-end-line="280" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#180#279#0" expanded="true" />
+            <element signature="e#763#794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variables/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

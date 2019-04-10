@@ -1,0 +1,157 @@
+{
+  "transfers": [
+    {
+      "id": 1,
+      "reference": "r12345",
+      "executionDate": "01/04/2019",
+      "principalAccount": "15141312",
+      "beneficiaryAccount": "12131415",
+      "transactionAmount": 36.738,
+      "transactionCurrency": "$",
+      "state": "in_progress"
+    },
+    {
+      "id": 2,
+      "reference": "r12346",
+      "executionDate": "01/04/2019",
+      "principalAccount": "12131415",
+      "beneficiaryAccount": "15141312",
+      "transactionAmount": 36.738,
+      "transactionCurrency": "$",
+      "state": "cancelled"
+    },
+    {
+      "id": 3,
+      "reference": "r12347",
+      "executionDate": "01/04/2019",
+      "principalAccount": "12131415",
+      "beneficiaryAccount": "12131415",
+      "transactionAmount": 23.789,
+      "transactionCurrency": "MAD",
+      "state": "accepted"
+    },
+    {
+      "id": 4,
+      "reference": "r12348",
+      "executionDate": "01/04/2019",
+      "principalAccount": "12131415",
+      "beneficiaryAccount": "12131415",
+      "transactionAmount": 23.789,
+      "transactionCurrency": "MAD",
+      "state": "accepted"
+    },
+    {
+      "id": 5,
+      "reference": "r12349",
+      "executionDate": "01/04/2019",
+      "principalAccount": "12131415",
+      "beneficiaryAccount": "12131415",
+      "transactionAmount": 23.789,
+      "transactionCurrency": "MAD",
+      "state": "accepted"
+    },
+    {
+      "id": 6,
+      "reference": "r12350",
+      "executionDate": "01/04/2019",
+      "principalAccount": "12131415",
+      "beneficiaryAccount": "12131415",
+      "transactionAmount": 23.789,
+      "transactionCurrency": "MAD",
+      "state": "accepted"
+    },
+    {
+      "id": 7,
+      "reference": "r12351",
+      "executionDate": "01/04/2019",
+      "principalAccount": "12131415",
+      "beneficiaryAccount": "12131415",
+      "transactionAmount": 23.789,
+      "transactionCurrency": "MAD",
+      "state": "accepted"
+    },
+    {
+      "id": 8,
+      "reference": "r12352",
+      "executionDate": "01/04/2019",
+      "principalAccount": "12131415",
+      "beneficiaryAccount": "12131415",
+      "transactionAmount": 23.789,
+      "transactionCurrency": "MAD",
+      "state": "accepted"
+    },
+    {
+      "id": 9,
+      "reference": "r12353",
+      "executionDate": "01/04/2019",
+      "principalAccount": "12131415",
+      "beneficiaryAccount": "12131415",
+      "transactionAmount": 23.789,
+      "transactionCurrency": "MAD",
+      "state": "accepted"
+    },
+    {
+      "id": 10,
+      "reference": "r12354",
+      "executionDate": "01/04/2019",
+      "principalAccount": "12131415",
+      "beneficiaryAccount": "12131415",
+      "transactionAmount": 23.789,
+      "transactionCurrency": "MAD",
+      "state": "accepted"
+    },
+    {
+      "id": 11,
+      "reference": "r12355",
+      "executionDate": "01/04/2019",
+      "principalAccount": "12131415",
+      "beneficiaryAccount": "12131415",
+      "transactionAmount": 23.789,
+      "transactionCurrency": "MAD",
+      "state": "accepted"
+    },
+    {
+      "id": 12,
+      "reference": "r12356",
+      "executionDate": "01/04/2019",
+      "principalAccount": "12131415",
+      "beneficiaryAccount": "12131415",
+      "transactionAmount": 23.789,
+      "transactionCurrency": "MAD",
+      "state": "accepted"
+    },
+    {
+      "id": 13,
+      "reference": "r12357",
+      "executionDate": "01/04/2019",
+      "principalAccount": "12131415",
+      "beneficiaryAccount": "12131415",
+      "transactionAmount": 23.789,
+      "transactionCurrency": "MAD",
+      "state": "accepted"
+    }
+  ],
+  "user": {
+    "id": 1,
+    "name": "KHOUNA",
+    "matricule": "bp123",
+    "role": "ROLE_AGENT"
+  },
+  "account": [
+    {
+      "id": 12131415,
+      "currency": "MAD",
+      "state": "active"
+    },
+    {
+      "id": 15141312,
+      "code": "USD",
+      "libelle": "closed"
+    }
+  ],
+  "commission": {
+    "commissionRate": 0.2,
+    "commissionAmount": 20,
+    "tvaAmount": 2
+  }
+}

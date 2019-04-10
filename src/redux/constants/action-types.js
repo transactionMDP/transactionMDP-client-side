@@ -1,0 +1,7 @@
+export const ADD_ARTICLE = "ADD_ARTICLE";
+export const DATA_LOADED = "DATA_LOADED";
+export const DATA_REQUESTED = "DATA_REQUESTED";
+export const API_ERRORED = "API_ERRORED";
+export const USER_DATA_LOADED = "USER_DATA_LOADED";
+export const USER_DATA_REQUESTED = "USER_DATA_REQUESTED";
+export const AUTH_STATE = "AUTH_STATE";
