@@ -45,9 +45,9 @@ class TransferForm extends React.Component {
             focused: "",
             transactionType: "",              // Type de transaction
             principalAccount: "",             // Compte donneur d’ordre
-            principalCurrency: "NaN",         // Devise Compte donneur ordre
+            principalCurrency: "NAN",         // Devise Compte donneur ordre
             beneficiaryAccount: "",           // Compte bénéficiaire
-            beneficiaryCurrency: "NaN2",      // Devise Compte bénéficiaire
+            beneficiaryCurrency: "NaN",      // Devise Compte bénéficiaire
             transactionAmount: 0,             // Montant de l’opération
             transactionCurrency: "NaN",       // Devise de l’opération: doit être égale à la devise du compte à débiter ou celle du compte à créditer
             transferReason: "",               // Motif de virement
@@ -147,7 +147,6 @@ class TransferForm extends React.Component {
         };
 
         // Envoyer les données de l'opération au serveur
-        console.log(transferData);
         doTransfer(transferData)
             .then(response => {
                 //console.log(response);

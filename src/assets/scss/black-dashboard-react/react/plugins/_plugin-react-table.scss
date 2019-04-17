@@ -73,13 +73,13 @@
   border-color: #2b3553;
   background-color: transparent;
   border-radius: 0.4285rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   line-height: normal;
   font-size: 0.8571em;
   transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out,
   background-color 0.3s ease-in-out;
   box-shadow: none;
-  margin-left: 0.5em;
+  /*margin-left: 0.5em;*/
   display: inline-block;
   width: auto;
   height: calc(1.8125rem + 2px);
@@ -89,7 +89,7 @@
     background: transparent;
     box-shadow: none;
     outline: 0 !important;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
   }
   option {
     color: $gray-800;

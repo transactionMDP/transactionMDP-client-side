@@ -1,7 +1,8 @@
 // core components/views
 /*import Dashboard from "views/Dashboard.jsx";*/
 //import Icons from "views/Icons.jsx";
-import TransferIntraAgency from "views/User/Transfer/TransferForm.jsxport TableList from "views/TransfersTable.jsx";
+import TransferIntraAgency from "views/User/Transfer/TransferForm.jsx"
+import TableList from "views/TransfersTable.jsx";
 
 const dashboardRoutesUser = [/*
   {

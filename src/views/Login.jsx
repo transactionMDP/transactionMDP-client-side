@@ -51,7 +51,7 @@ class Login extends React.Component {
         this.state = {
             squares1to6: "",
             squares7and8: "",
-            usernameOrEmail: "", // le nom d'utilisateur
+            registrationNumberOrEmail: "",       // le matricule ou email d'utilisateur
             password: ""         // mot de passe
         };
 
@@ -110,7 +110,7 @@ class Login extends React.Component {
 
         // Récupérer l’identité de l’utilisateur
         const loginRequest = {
-            usernameOrEmail: this.state.usernameOrEmail,
+            registrationNumberOrEmail: this.state.registrationNumberOrEmail,
             password: this.state.password
         };
 
@@ -150,7 +150,7 @@ class Login extends React.Component {
                  * TESTTTTTTTTTTTTTTTTTT
                  */
                 this.props.setAuthState(true);
-                this.props.history.push("/user/addtransfer");
+                this.props.history.push("/user/addUser");
                 // affichee un message d’erreur
                 Toast.fire({
                     type: 'warning',
@@ -201,10 +201,10 @@ class Login extends React.Component {
                                                             </InputGroupText>
                                                         </InputGroupAddon>
                                                         <Input
-                                                            id="usernameOrEmail"
-                                                            placeholder="Email"
+                                                            id="registrationNumberOrEmail"
+                                                            placeholder="Email ou Matricule"
                                                             type="text"
-                                                            value={this.state.usernameOrEmail}
+                                                            value={this.state.registrationNumberOrEmail}
                                                             onChange={this.handleChange}
                                                             onFocus={e => this.setState({emailFocus: true})}
                                                             onBlur={e => this.setState({emailFocus: false})}

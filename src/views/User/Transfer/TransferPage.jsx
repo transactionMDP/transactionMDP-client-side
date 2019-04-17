@@ -472,7 +472,7 @@ class TransferPage extends React.Component {
                                       <Label className={"col-md-4 col-form-label"} for="principalAccount">N° compte débiteur</Label>
                                       <FormGroup className="col-md-8">
                                           <p className="form-control-static">
-                                              {transfer.principalAccount+" "}<span>{/*transfer.principalCurrency*/}</span>
+                                              {transfer.creditAccount.accountNumber+" "}<span>{/*transfer.principalCurrency*/}</span>
                                           </p>
                                       </FormGroup>
                                   </div>
@@ -481,7 +481,7 @@ class TransferPage extends React.Component {
                                       <Label className={"col-md-4 col-form-label"} for="beneficiaryAccount">N° compte bénéficiaire</Label>
                                       <FormGroup className="col-md-8">
                                           <p className="form-control-static">
-                                              {transfer.beneficiaryAccount+" "}<span>{/*transfer.beneficiaryCurrency*/}</span>
+                                              {transfer.debitAccount.accountNumber+" "}<span>{/*transfer.beneficiaryCurrency*/}</span>
                                           </p>
                                       </FormGroup>
                                   </div>
@@ -490,7 +490,7 @@ class TransferPage extends React.Component {
                                       <Label className={"col-md-4 col-form-label"}  for="transactionAmount">Montant</Label>
                                       <FormGroup  className="col-md-8">
                                           <p className="form-control-static">
-                                              {transfer.transactionAmount+" "}<span>{/*transfer.transactionCurrency*/}</span>
+                                              {transfer.amount+" "}<span>{/*transfer.transactionCurrency*/}</span>
                                           </p>
                                       </FormGroup>
                                   </div>

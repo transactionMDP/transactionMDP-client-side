@@ -191,9 +191,12 @@ class UserNavbar extends React.Component {
                   </DropdownToggle>
                   <DropdownMenu className="dropdown-navbar" right tag="ul">
                     <NavLink tag="li">
-                      <DropdownItem className="nav-item" href="/dash/profile">Profil{this.props.currentUser.role}</DropdownItem>
+                      <DropdownItem className="nav-item" href="/dash/profile">{this.props.currentUser.name}</DropdownItem>
                     </NavLink>
                     <DropdownItem divider tag="li" />
+                    <NavLink tag="li">
+                      <DropdownItem className="nav-item" href="/dash/profile">Profil</DropdownItem>
+                    </NavLink>
                     <NavLink tag="li">
                       <DropdownItem className="nav-item" onClick={this.handleLogout}>Déconnecter</DropdownItem>
                     </NavLink>

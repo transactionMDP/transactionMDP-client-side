@@ -288,10 +288,10 @@ class TransfersTable extends React.Component {
     return transfers.map((transfer, key) => {
       return {
         reference: transfer.reference,
-        executionDate: formatDateTime(transfer.executionDate),
-        principalAccount: transfer.principalAccount,
-        beneficiaryAccount: transfer.beneficiaryAccount,
-        transactionAmount: transfer.transactionAmount,
+        operationDate: formatDateTime(transfer.operationDate),
+        principalAccount: transfer.creditAccount.accountNumber,
+        beneficiaryAccount: transfer.debitAccount.accountNumber,
+        transactionAmount: transfer.amount,
         stateAction:
             this.props.currentUser.role==="ROLE_AGENT"
                 ? this.renderSwitch(transfer.state,"/user/transfers/"+transfer.id)
@@ -369,9 +369,9 @@ class TransfersTable extends React.Component {
       return <LoadingIndicator />;
     }
 
-    if(this.state.notFound || !this.props.currentUser) {
+    /*if(this.state.notFound || !this.props.currentUser) {
       return <NotFound />;
-    }
+    }*/
 
     /*if(this.state.serverError) {
       return <ServerError />;
@@ -396,7 +396,7 @@ class TransfersTable extends React.Component {
                             },
                             {
                               Header: "Date d'opération",
-                              accessor: "executionDate"
+                              accessor: "operationDate"
                             },
                             {
                               Header: "Donneur d’ordre",

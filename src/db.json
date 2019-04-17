@@ -1,5 +1,5 @@
 {
-  "transfers": [
+  "transfer/list": [
     {
       "id": 1,
       "reference": "r12345",
@@ -135,7 +135,7 @@
     "id": 1,
     "name": "KHOUNA",
     "matricule": "bp123",
-    "role": "ROLE_AGENT"
+    "role": "ROLE_CTRL"
   },
   "account": [
     {

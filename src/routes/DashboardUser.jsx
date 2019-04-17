@@ -1,5 +1,6 @@
 // core components/views
 import TransferForm from "views/User/Transfer/TransferForm.jsx"
+import RegisterForm from "../views/User/Transfer/RegisterForm"
 import Transfer from "views/User/Transfer/TransferPage.jsx";
 import TransfersTable from "views/User/Transfer/TransfersTable.jsx";
 
@@ -9,6 +10,13 @@ const dashboardRoutesUser = [
         name: "Virement",
         icon: "fa fa-retweet",
         component: TransferForm,
+        layout: "/user"
+    },
+    {
+        path: "/addUser",
+        name: "Inscription",
+        icon: "fa fa-retweet",
+        component: RegisterForm,
         layout: "/user"
     },
     {

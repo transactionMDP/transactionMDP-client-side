@@ -27,26 +27,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/APIUtils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+            <state relative-caret-position="2190">
+              <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransferForm.jsx">
+        <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/RegisterForm.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2070">
-              <caret line="155" column="29" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
+            <state relative-caret-position="57">
+              <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransferPage.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2355">
-              <caret line="176" column="8" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
+            <state relative-caret-position="-261">
+              <caret line="489" column="75" selection-start-line="489" selection-start-column="75" selection-end-line="489" selection-end-column="75" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -57,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransfersTable.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3960">
-              <caret line="280" column="49" selection-start-line="280" selection-start-column="49" selection-end-line="280" selection-end-column="49" />
+            <state relative-caret-position="293">
+              <caret line="292" column="63" lean-forward="true" selection-start-line="292" selection-start-column="37" selection-end-line="292" selection-end-column="63" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#180#279#0" expanded="true" />
@@ -68,46 +71,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Navbars/UserNavbar.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+            <state relative-caret-position="42">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/views/Login.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="129" column="28" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="28" />
+              <folding>
+                <element signature="e#466#502#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/variables/constants.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
+              <caret column="54" selection-start-column="54" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -132,10 +112,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getRoutes</find>
-      <find>cancel</find>
-      <find>cance</find>
-      <find>git</find>
       <find>toggleModal</find>
       <find>Toast</find>
       <find>current</find>
@@ -162,6 +138,10 @@
       <find>transfers</find>
       <find>applyedRate</find>
       <find>data</find>
+      <find>My</find>
+      <find>handleBgClick</find>
+      <find>.rt-thead.-filters</find>
+      <find>localStorage</find>
     </findStrings>
     <replaceStrings>
       <replace>#ff0000</replace>
@@ -177,9 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/custom/_input-group2.scss" />
-        <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/custom/_navbar.scss" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/db2.json" />
         <option value="$PROJECT_DIR$/node_modules/json-server/db.json" />
         <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/custom/_input-group.scss" />
@@ -200,34 +177,37 @@
         <option value="$PROJECT_DIR$/src/redux/middleware/index.js" />
         <option value="$PROJECT_DIR$/src/redux/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/routes/App.js" />
-        <option value="$PROJECT_DIR$/src/components/Navbars/UserNavbar.jsx" />
         <option value="$PROJECT_DIR$/src/components/LoadingIndicator/LoadingIndicator.jsx" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/views/User/Transfer/TransfersTable2.jsx" />
         <option value="$PROJECT_DIR$/src/routes/PrivateRoute.js" />
-        <option value="$PROJECT_DIR$/src/views/User/Transfer/TransferPage.jsx" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/routes/PrivateRoute.jsx" />
         <option value="$PROJECT_DIR$/node_modules/react-table/react-table.css" />
         <option value="$PROJECT_DIR$/src/assets/css/react-table.css" />
         <option value="$PROJECT_DIR$/src/views/User/Transfer/Utils.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/react-differences.scss" />
-        <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/plugins/_plugin-react-table.scss" />
         <option value="$PROJECT_DIR$/src/views/User/Transfer/TransfersTable3.jsx" />
         <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/custom/_white-content.scss" />
         <option value="$PROJECT_DIR$/src/assets/css/black-dashboard-react.css" />
         <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/custom/_sidebar-and-main-panel.scss" />
         <option value="$PROJECT_DIR$/src/views/User/Transfer/TransferIntraAgency.jsx" />
-        <option value="$PROJECT_DIR$/src/views/Login.jsx" />
-        <option value="$PROJECT_DIR$/src/views/User/Transfer/TransfersTable.jsx" />
-        <option value="$PROJECT_DIR$/src/routes/DashboardUser.jsx" />
-        <option value="$PROJECT_DIR$/src/db.json" />
-        <option value="$PROJECT_DIR$/src/views/User/Dashboard.jsx" />
-        <option value="$PROJECT_DIR$/src/variables/constants.js" />
-        <option value="$PROJECT_DIR$/src/util/APIUtils.js" />
-        <option value="$PROJECT_DIR$/src/views/User/Transfer/TransferForm.jsx" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/variables/constants.js" />
+        <option value="$PROJECT_DIR$/src/db.json" />
+        <option value="$PROJECT_DIR$/src/routes/DashboardAdmin.jsx" />
+        <option value="$PROJECT_DIR$/src/views/User/Transfer/RegisterPage.jsx" />
+        <option value="$PROJECT_DIR$/src/routes/DashboardUser.jsx" />
+        <option value="$PROJECT_DIR$/src/views/User/Transfer/RegisterForm.jsx" />
+        <option value="$PROJECT_DIR$/src/util/APIUtils.js" />
+        <option value="$PROJECT_DIR$/src/views/User/Dashboard.jsx" />
+        <option value="$PROJECT_DIR$/src/views/User/Transfer/TransferForm.jsx" />
+        <option value="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/plugins/_plugin-react-table.scss" />
+        <option value="$PROJECT_DIR$/src/views/Login.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Navbars/UserNavbar.jsx" />
+        <option value="$PROJECT_DIR$/src/views/User/Transfer/TransfersTable.jsx" />
+        <option value="$PROJECT_DIR$/src/views/User/Transfer/TransferPage.jsx" />
       </list>
     </option>
   </component>
@@ -240,7 +220,7 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="809" />
+    <option name="height" value="811" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -248,7 +228,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -257,17 +236,109 @@
               <item name="transactionMDP-client-side" type="b2602c69:ProjectViewProjectNode" />
               <item name="transactionMDP-client-side" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="transactionMDP-client-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transactionMDP-client-side" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transactionMDP-client-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transactionMDP-client-side" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transactionMDP-client-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transactionMDP-client-side" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transactionMDP-client-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transactionMDP-client-side" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="black-dashboard-react" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transactionMDP-client-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transactionMDP-client-side" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transactionMDP-client-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transactionMDP-client-side" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Navbars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transactionMDP-client-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transactionMDP-client-side" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="redux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transactionMDP-client-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transactionMDP-client-side" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="redux" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transactionMDP-client-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transactionMDP-client-side" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transactionMDP-client-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transactionMDP-client-side" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transactionMDP-client-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transactionMDP-client-side" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="variables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transactionMDP-client-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transactionMDP-client-side" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transactionMDP-client-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transactionMDP-client-side" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transactionMDP-client-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transactionMDP-client-side" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+              <item name="Transfer" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554932847266" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555527177333" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -276,19 +347,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views/User/Transfer" />
+      <recent name="$PROJECT_DIR$/src/assets/css" />
+      <recent name="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/plugins" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/util" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/views/User" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/redux/constants" />
       <recent name="$PROJECT_DIR$/src/variables" />
       <recent name="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/custom" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/css" />
-      <recent name="$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/plugins" />
-      <recent name="$PROJECT_DIR$/src/views/User/Transfer" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -372,6 +443,12 @@
       <workItem from="1554883278126" duration="9753000" />
       <workItem from="1554916263288" duration="504000" />
       <workItem from="1554932985756" duration="22000" />
+      <workItem from="1554970537806" duration="3581000" />
+      <workItem from="1555060464079" duration="3273000" />
+      <workItem from="1555335815303" duration="2121000" />
+      <workItem from="1555409118497" duration="9521000" />
+      <workItem from="1555440193373" duration="755000" />
+      <workItem from="1555488212865" duration="8352000" />
     </task>
     <task id="LOCAL-00001" summary="update of transfers table for all the users">
       <created>1554330161405</created>
@@ -475,7 +552,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="418730000" />
+    <option name="totallyTimeSpent" value="446333000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,10 +564,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21459228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2932761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -507,7 +584,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21445782" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.213253" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -572,52 +649,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_jumbotron.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_list-group.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_media.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_modal.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_navbar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_pagination.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_popover.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_print.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/bootstrap/_progress.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-24" />
@@ -723,78 +754,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransfersTable2.jsx" />
     <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransferIntraCTN.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="147" column="11" selection-start-line="147" selection-start-column="11" selection-end-line="147" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/DashboardUser.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="e#25#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Login.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-853">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/User/Dashboard.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/APIUtils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransferForm.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret line="155" column="29" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransferPage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2355">
-          <caret line="176" column="8" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransfersTable.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3960">
-          <caret line="280" column="49" selection-start-line="280" selection-start-column="49" selection-end-line="280" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#180#279#0" expanded="true" />
-            <element signature="e#763#794#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -812,25 +788,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/variables/constants.js">
+    <entry file="file://$PROJECT_DIR$/src/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/routes/DashboardAdmin.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding>
+            <element signature="e#113#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/reactstrap/src/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/PrivateRoute.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        <state relative-caret-position="262">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/middleware/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/DashboardUser.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#25#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransferForm.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <folding>
+            <element signature="e#35#130#0" expanded="true" />
+            <element signature="e#247#439#0" expanded="true" />
+            <element signature="e#461#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/User/Dashboard.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="121" column="5" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/black-dashboard-react/react/plugins/_plugin-react-table.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variables/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="54" selection-start-column="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navbars/UserNavbar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/APIUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2190">
+          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="129" column="28" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="28" />
+          <folding>
+            <element signature="e#466#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/RegisterForm.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransfersTable.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="292" column="63" lean-forward="true" selection-start-line="292" selection-start-column="37" selection-end-line="292" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#180#279#0" expanded="true" />
+            <element signature="e#763#794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/User/Transfer/TransferPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="489" column="75" selection-start-line="489" selection-start-column="75" selection-end-line="489" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

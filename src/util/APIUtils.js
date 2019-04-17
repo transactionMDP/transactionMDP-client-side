@@ -30,7 +30,7 @@ export function getAllTransfers(page, size) {
     size = size || TRANSFER_LIST_SIZE;
 
     return request({
-        url: API_BASE_URL + "/transfers?page=" + page + "&size=" + size,
+        url: API_BASE_URL + "/transfer/list?page=" + page + "&size=" + size,
         method: 'GET'
     });
 }
@@ -126,7 +126,7 @@ export function login(loginRequest) {
     return request({
         url: API_BASE_URL + "/auth/signin",
         method: 'POST',
-        body: /*JSON.stringify(*/loginRequest.data/*)*/
+        body: JSON.stringify(loginRequest)
     });
 }
 
@@ -145,23 +145,13 @@ export function checkEmailAvailability(email) {
     });
 }
 
-/*export function getCurrentUser() {
+export function getCurrentUser() {
     if(!localStorage.getItem(ACCESS_TOKEN)) {
         return Promise.reject("No access token set.");
     }
 
     return request({
         url: API_BASE_URL + "/user/me",
-        method: 'GET'
-    });
-}*/
-export function getCurrentUser() {
-    /*if(!localStorage.getItem(ACCESS_TOKEN)) {
-        return Promise.reject("No access token set.");
-    }*/
-
-    return request({
-        url: API_BASE_URL + "/user",
         method: 'GET'
     });
 }

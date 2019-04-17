@@ -90,7 +90,7 @@ class Dashboard extends React.Component {
       }
       document.documentElement.scrollTop = 0;
       document.scrollingElement.scrollTop = 0;
-      this.refs.mainPanel.scrollTop = 0;
+      //this.refs.mainPanel.scrollTop = 0;
     }
     //this.loadUserProfile();
   }
@@ -117,9 +117,9 @@ class Dashboard extends React.Component {
   };
 
   render() {
-    /*if(this.state.notFound || !this.props.currentUser) {
+    if(this.state.notFound || !this.props.currentUser) {
       return <NotFound />;
-    }*/
+    }
 
     /*if(this.state.serverError) {
       return <ServerError />;
