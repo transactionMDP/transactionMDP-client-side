@@ -232,20 +232,20 @@ class TransfersTable extends React.Component {
   }
 
   renderSwitch(state, link) {
-    switch(state) {
-      case 'accepted':
+    switch(state.code) {
+      case "3000":
         return <><Link to={link}><Button className="btn-link" color="success">Validée</Button></Link>
           {` `}<Button className="btn-icon btn-simple" onClick={this.handleCancelTransfer} style={{border:0}} color="primary" size="sm">
             <i className="fa fa-times" />
           </Button>
         </>;
-      case 'in_progress':
+      case "1000":
         return <><Link to={link}><Button className="btn-link" color="warning">Encours</Button></Link>
               {` `}<Button className="btn-icon btn-simple" onClick={this.handleCancelTransfer} style={{border:0}} color="primary" size="sm">
                 <i className="fa fa-times" />
               </Button>
             </>;
-      case 'cancelled':
+      case "4000":
         return <><Link to={link}><Button className="btn-link" color="danger">Rejetée</Button></Link>
           {` `}<Button className="btn-icon btn-simple" onClick={this.handleCancelTransfer} style={{border:0}} color="primary" size="sm">
           <i className="fa fa-times" />
