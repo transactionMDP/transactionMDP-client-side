@@ -9,15 +9,15 @@ const PrivateRoute = ({ component: Component, isAuthenticated, ...rest }) => (
     <Route
       {...rest}
       render={props =>
-          isAuthenticated ? (
-          <Component {...rest} {...props}/>
-        ) : (
-          <Redirect
-            to={{
-              pathname: '/login',
-              state: { from: props.location }
-            }}
-          />
+          isAuthenticated ? t} {...props}/>
+) : ((
+          <Component {...res
+              <Redirect
+                  to={{
+                      pathname: '/login',
+                      state: { from: props.location }
+                  }}
+              />
         )
       }
     />
@@ -30,3 +30,21 @@ const mapStateToProps = (state) =>{
 };
 
 export default connect(mapStateToProps)(PrivateRoute);
+
+/*const PrivateRoute = ({ component: Component, isAuthenticated, ...rest }) => (
+    <Route
+        {...rest}
+        render={props =>
+            isAuthenticated ? (
+                <Component {...rest} {...props}/>
+            ) : (
+                <Redirect
+                    to={{
+                        pathname: '/login',
+                        state: { from: props.location }
+                    }}
+                />
+            )
+        }
+    />
+);*/

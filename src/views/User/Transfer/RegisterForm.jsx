@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import {signup} from '../../../util/APIUtils';
+import {signup} from '../../../util/APIs';
 
 // reactstrap components
 import {

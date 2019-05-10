@@ -12,6 +12,7 @@ const request = (options) => {
     const defaults = {headers: headers};
     options = Object.assign({}, defaults, options);
 
+    //alert(options.url);
     return fetch(options.url, options)
     .then(response =>
             response.json().then(json => {
@@ -35,12 +36,32 @@ export function getAllTransfers(page, size) {
     });
 }
 
-export function getUserCreatedTransfers(username, page, size) {
+export function getUserCreatedTransfers(page, size) {
     page = page || 0;
     size = size || TRANSFER_LIST_SIZE;
 
     return request({
-        url: API_BASE_URL + "/users/" + username + "/transfers?page=" + page + "&size=" + size,
+        url: API_BASE_URL + "/transfer/me?page=" + page + "&size=" + size,
+        method: 'GET'
+    });
+}
+
+export function getCTRLTransfers(page, size) {
+    page = page || 0;
+    size = size || TRANSFER_LIST_SIZE;
+
+    return request({
+        url: API_BASE_URL + "/transfer/ctrllist?page=" + page + "&size=" + size,
+        method: 'GET'
+    });
+}
+
+export function getCTNTransfers(page, size) {
+    page = page || 0;
+    size = size || TRANSFER_LIST_SIZE;
+
+    return request({
+        url: API_BASE_URL + "/transfer/ctnlist?page=" + page + "&size=" + size,
         method: 'GET'
     });
 }
@@ -70,14 +91,21 @@ export function deleteTransfer(id) {
 
 export function getTransfer(id) {
     return request({
-        url: API_BASE_URL + "/transfers/" + id,
+        url: API_BASE_URL + "/transfer/" + id,
         method: 'GET'
     });
 }
 
-export function cancelTransfer(id,reason) {
+export function cancelTransfer(id) {
     return request({
-        url: API_BASE_URL + "/canceltransfers/" + id,
+        url: API_BASE_URL + "/transfer/cancel/" + id,
+        method: 'PUT'
+    });
+}
+
+export function refuseTransfer(id,reason) {
+    return request({
+        url: API_BASE_URL + "/transfer/refuse/" + id,
         method: 'PUT',
         body: JSON.stringify(reason)
     });
@@ -85,15 +113,15 @@ export function cancelTransfer(id,reason) {
 
 export function acceptTransfer(id) {
     return request({
-        url: API_BASE_URL + "/accepttransfers/" + id,
-        method: 'GET'
+        url: API_BASE_URL + "/transfer/validate/" + id,
+        method: 'PUT'
     });
 }
 
 export function sendTransfer(id) {
     return request({
-        url: API_BASE_URL + "/accepttransfers/" + id,
-        method: 'GET'
+        url: API_BASE_URL + "/transfer/sendToCtn/" + id,
+        method: 'PUT'
     });
 }
 

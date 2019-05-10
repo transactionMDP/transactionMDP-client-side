@@ -3,7 +3,7 @@ import React from "react";
 // API
 import {
     getAccountCurrency, doTransfer, getCommissionData
-} from '../../../util/APIUtils';
+} from '../../../util/APIs';
 // react plugin used to create datetimepicker
 import ReactDatetime from "react-datetime";
 
@@ -45,9 +45,9 @@ class TransferForm extends React.Component {
             focused: "",
             transactionType: "",              // Type de transaction
             principalAccount: "",             // Compte donneur d’ordre
-            principalCurrency: "NAN",         // Devise Compte donneur ordre
+            principalAccountCurrency: "NAN",         // Devise Compte donneur ordre
             beneficiaryAccount: "",           // Compte bénéficiaire
-            beneficiaryCurrency: "NaN",      // Devise Compte bénéficiaire
+            beneficiaryAccountCurrency: "NaN",      // Devise Compte bénéficiaire
             transactionAmount: 0,             // Montant de l’opération
             transactionCurrency: "NaN",       // Devise de l’opération: doit être égale à la devise du compte à débiter ou celle du compte à créditer
             transferReason: "",               // Motif de virement
@@ -121,26 +121,27 @@ class TransferForm extends React.Component {
         // Récupérer les données du virement
         const transferData = {
             // affecter la valeur de type de transaction selon le role d'utilisateur
-            /*transactionType: this.props.currenUser.role==="ROLE_AGENT" ? "agent"
-                             : this.props.currentUser.role==="ROLE_CTN" ? "ctn"
-                             : this.props.currentUser.role==="ROLE_CTRL"? "ctrl":"",*/
+            transactionType: this.props.currentUser.role==="ROLE_AGENT" ? "IEA"
+                             : this.props.currentUser.role==="ROLE_CTN" ? "IAC"
+                             : this.props.currentUser.role==="ROLE_CTRL"? "ctrl":"",
             principalAccount: this.state.principalAccount,
-            //principalCurrency: this.state.principalCurrency,*************************************
+            //principalAccountCurrency: this.state.principalAccountCurrency,*************************************
             beneficiaryAccount: this.state.beneficiaryAccount,
-            //beneficiaryCurrency: this.state.beneficiaryCurrency,*************************************
+            //beneficiaryAccountCurrency: this.state.beneficiaryAccountCurrency,*************************************
             transactionAmount: this.state.transactionAmount,
             transactionCurrency: this.state.transactionCurrency,
             transferReason: this.state.transferReason,
             executionDate: this.state.executionDate,
-            //transferNature: this.state.transferNature,
-            //authorizationNumber: this.state.authorizationNumber,
-            //authorizationValidity: this.state.authorizationValidity,
+            transferNature: this.state.principalAccountCurrency+"_"+this.state.beneficiaryAccountCurrency,
+            authorizationNumber: this.state.authorizationNumber,
+            authorizationValidity: this.state.authorizationValidity,
             //commissionCode: this.state.commissionCode,
             commissionRate: this.state.applyedRate,
             commissionAmount: this.state.commissionAmount,
-            //applyCommission: this.state.applyCommission,
+            applyCommission: this.state.applyCommission,
             commissionTVA: this.state.commissionTVA,
             chargeType: this.state.chargeType,
+            //isExchange: this.state.principalAccountCurrency === "MAD" && this.state.beneficiaryAccountCurrency !== "MAD",
             //exchangeRate: this.state.exchangeRate,
             //tradingTicket: this.state.tradingTicket,
             //totalAmount: this.state.totalAmount
@@ -149,7 +150,6 @@ class TransferForm extends React.Component {
         // Envoyer les données de l'opération au serveur
         doTransfer(transferData)
             .then(response => {
-                //console.log(response);
                 // affichee un message de succès
                 /*return */
                 MySwal.fire({
@@ -159,7 +159,7 @@ class TransferForm extends React.Component {
                     timer: 1500
                 });
                 // redirection vers un tableau de transactions.
-                //this.props.history.push("/user/lsttransfers");
+                this.props.history.push("/user/lsttransfers");
             }).catch(error => {
             if (error.status === 401) {
                 // affichee un message d’erreur
@@ -190,7 +190,7 @@ class TransferForm extends React.Component {
         const id = event.target.id;
 
         if (number.length >= 4) {
-            let idCurrency = (id === "principalAccount") ? ("principalCurrency") : ("beneficiaryCurrency");
+            let idCurrency = id + "Currency";
             let promise;
 
             promise = getAccountCurrency(number);
@@ -244,7 +244,7 @@ class TransferForm extends React.Component {
         this.setState({
             [id]: value
         });
-        this.loadCommissionData(value,);
+        this.loadCommissionData(value);
     }
 
     // Cette fonction se déclenche lorsque l'utilisateur saisit le montant du virement
@@ -309,9 +309,9 @@ class TransferForm extends React.Component {
     // Cette fonction permet d'affecter la devise du compte à débiter à la variable "transactionCurrency" lorsque
     // la devise du compte à débiter est la meme que du compte à créditer
     getTransactionCurrency() {
-        if (this.state.principalCurrency === this.state.beneficiaryCurrency) {
+        if (this.state.principalAccountCurrency === this.state.beneficiaryAccountCurrency) {
             this.setState({
-                transactionCurrency: this.state.principalCurrency
+                transactionCurrency: this.state.principalAccountCurrency
             })
         }
     }
@@ -348,7 +348,7 @@ class TransferForm extends React.Component {
                                                             />
                                                             <InputGroupAddon addonType="append">
                                                                 <InputGroupText>
-                                                                    <p>{this.state.principalCurrency}</p>
+                                                                    <p>{this.state.principalAccountCurrency}</p>
                                                                 </InputGroupText>
                                                             </InputGroupAddon>
                                                         </InputGroup>
@@ -368,7 +368,7 @@ class TransferForm extends React.Component {
                                                             />
                                                             <InputGroupAddon addonType="append">
                                                                 <InputGroupText>
-                                                                    <p>{this.state.beneficiaryCurrency}</p>
+                                                                    <p>{this.state.beneficiaryAccountCurrency}</p>
                                                                 </InputGroupText>
                                                             </InputGroupAddon>
                                                         </InputGroup>
@@ -391,7 +391,7 @@ class TransferForm extends React.Component {
                                                             />
                                                             <InputGroupAddon addonType="append">
                                                                 <InputGroupText>
-                                                                    {this.state.principalCurrency === this.state.beneficiaryCurrency ?
+                                                                    {this.state.principalAccountCurrency === this.state.beneficiaryAccountCurrency ?
                                                                         (<p>{this.state.transactionCurrency}</p>) :
                                                                         (<select
                                                                             name="select"
@@ -400,8 +400,8 @@ class TransferForm extends React.Component {
                                                                             value={this.state.transactionCurrency}
                                                                             onChange={this.handleChange}
                                                                         >
-                                                                            <option>{this.state.principalCurrency}</option>
-                                                                            <option>{this.state.beneficiaryCurrency}</option>
+                                                                            <option>{this.state.principalAccountCurrency}</option>
+                                                                            <option>{this.state.beneficiaryAccountCurrency}</option>
                                                                         </select>)
                                                                     }
                                                                 </InputGroupText>
@@ -432,7 +432,7 @@ class TransferForm extends React.Component {
                                                     </FormGroup>
                                                 </div>
                                                 {/********************* Echange **************/
-                                                    (this.state.principalCurrency === "MAD" && this.state.beneficiaryCurrency !== "MAD") ? (
+                                                    (this.state.principalAccountCurrency === "MAD" && this.state.beneficiaryAccountCurrency !== "MAD") ? (
                                                         <>
                                                             {
                                                                 (this.state.transactionAmount > this.state.largeAmount) ? (
@@ -510,7 +510,7 @@ class TransferForm extends React.Component {
                                                         onChange={this.handleChange}
                                                     >
                                                         <option>OUR</option>
-                                                        <option>2</option>
+                                                        <option>BIN</option>
                                                     </Input>
                                                 </FormGroup>
 

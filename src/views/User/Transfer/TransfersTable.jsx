@@ -21,8 +21,17 @@ import {
 import { connect } from "react-redux";
 import { getCurrentUser } from "../../../redux/actions";
 
-//import {TRANSFER_LIST_SIZE} from "../../../variables/constants";
-import { getAllTransfers, cancelTransfer, acceptTransfer, sendTransfer} from "../../../util/APIUtils";
+import {TRANSFER_LIST_SIZE} from "../../../variables/constants";
+import {
+  getAllTransfers,
+  cancelTransfer,
+  refuseTransfer,
+  acceptTransfer,
+  sendTransfer,
+  getUserCreatedTransfers,
+  getCTRLTransfers,
+  getCTNTransfers,
+} from "../../../util/APIs";
 import NotFound from "../../NotFound";
 import {formatDateTime} from "../../../util/Helpers";
 import LoadingIndicator from "../../../components/LoadingIndicator/LoadingIndicator";
@@ -56,6 +65,7 @@ class TransfersTable extends React.Component {
     this.loadTransfersList = this.loadTransfersList.bind(this);
     //this.handleLoadMore = this.handleLoadMore.bind(this);
     this.handleCancelTransfer = this.handleCancelTransfer.bind(this);
+    this.handleRefuseTransfer = this.handleRefuseTransfer.bind(this);
     this.handleAcceptTransfer = this.handleAcceptTransfer.bind(this);
     this.handleSendTransfer = this.handleSendTransfer.bind(this);
 
@@ -89,10 +99,14 @@ class TransfersTable extends React.Component {
     this.loadTransfersList(this.state.page + 1);
   }*/
 
-  loadTransfersList(/*page = 0, size = TRANSFER_LIST_SIZE*/) {
+  loadTransfersList(page = 0, size = TRANSFER_LIST_SIZE) {
     let promise;
 
-    promise = getAllTransfers();//getUserCreatedTransfers(this.props.currentUser.username, page, size);
+    //promise = getAllTransfers();
+    promise =   this.props.currentUser.role==="ROLE_AGENT"?getUserCreatedTransfers(page, size)
+               :this.props.currentUser.role==="ROLE_CTRL"?getCTRLTransfers(page, size)
+               :this.props.currentUser.role==="ROLE_CTN"?getCTNTransfers(page, size):null;
+
 
     if(!promise) {
       return;
@@ -121,23 +135,22 @@ class TransfersTable extends React.Component {
 
   }
 
-  handleCancelTransfer(id) {
+  handleCancelTransfer = (id) => {
     MySwal.fire({
       buttonsStyling:false,
       customClass: {
         confirmButton: 'btn btn-success',
         cancelButton: 'btn btn-danger',
       },
-      title: 'Entrer votre motif',
-      input: 'textarea',
-      inputPlaceholder: 'Votre motif ...',
+      title: 'Êtes-vous sûr?',
+      text: "Voulez-vous annuler cette transaction!",
       showCancelButton: true,
       confirmButtonText: 'Confirmer',
       cancelButtonText: 'Annuler'
     }).then((result) => {
       if (result.value) {
         let reason = result.value;
-        cancelTransfer(id, reason)
+        cancelTransfer(id)
             .then(response => {
               // affichee un message de succès
               /*return */MySwal.fire({
@@ -167,9 +180,57 @@ class TransfersTable extends React.Component {
         });
       }
     })
-  }
+  };
 
-  handleAcceptTransfer(id) {
+  handleRefuseTransfer = (id) => {
+    MySwal.fire({
+      buttonsStyling:false,
+      customClass: {
+        confirmButton: 'btn btn-success',
+        cancelButton: 'btn btn-danger',
+      },
+      title: 'Entrer votre motif',
+      input: 'textarea',
+      inputPlaceholder: 'Votre motif ...',
+      showCancelButton: true,
+      confirmButtonText: 'Confirmer',
+      cancelButtonText: 'Annuler'
+    }).then((result) => {
+      if (result.value) {
+        let reason = result.value;
+        refuseTransfer(id, reason)
+            .then(response => {
+              // affichee un message de succès
+              /*return */MySwal.fire({
+                type: 'success',
+                title: 'Votre operation a été enregistrée',
+                showConfirmButton: false,
+                timer: 1500
+              });
+              this.loadTransfersList();
+            }).catch(error => {
+          if(error.status === 401) {
+            MySwal.fire({
+              type: 'error',
+              title: 'Vous avez été déconnecté. Veuillez vous connecter pour effectuer cette opération.',
+              showConfirmButton: false,
+              timer: 1500
+            });
+            this.props.history.push('/login');
+          } else {
+            MySwal.fire({
+              type: 'warning',
+              title: error.message || 'Pardon! Quelque chose s\'est mal passé. Veuillez réessayer!',
+              showConfirmButton: false,
+              timer: 1500
+            })
+          }
+        });
+      }
+    })
+  };
+
+  handleAcceptTransfer = (id) => {
     acceptTransfer(id)
         .then(response => {
 
@@ -198,9 +259,9 @@ class TransfersTable extends React.Component {
         });
       }
     });
-  }
+  };
 
-  handleSendTransfer(id) {
+  handleSendTransfer = (id) => {
     sendTransfer(id)
         .then(response => {
 
@@ -229,40 +290,26 @@ class TransfersTable extends React.Component {
         });
       }
     });
+  };
+
+  renderSwitch(state, ref) {
+    let link = "/user/transfers/"+ref;
+
+    return <><Link to={link}><Button className="btn-link" color={state.code===1000?"warning":state.code===3000?"success":"danger"}>{state.libelle}</Button></Link>
+      {` `}<Button className="btn-icon btn-simple" onClick={()=>this.handleCancelTransfer(ref)} style={{border:0}} color="primary" size="sm">
+        <i className="fa fa-times" />
+      </Button>
+    </>;
   }
 
-  renderSwitch(state, link) {
-    switch(state.code) {
-      case "3000":
-        return <><Link to={link}><Button className="btn-link" color="success">Validée</Button></Link>
-          {` `}<Button className="btn-icon btn-simple" onClick={this.handleCancelTransfer} style={{border:0}} color="primary" size="sm">
-            <i className="fa fa-times" />
-          </Button>
-        </>;
-      case "1000":
-        return <><Link to={link}><Button className="btn-link" color="warning">Encours</Button></Link>
-              {` `}<Button className="btn-icon btn-simple" onClick={this.handleCancelTransfer} style={{border:0}} color="primary" size="sm">
-                <i className="fa fa-times" />
-              </Button>
-            </>;
-      case "4000":
-        return <><Link to={link}><Button className="btn-link" color="danger">Rejetée</Button></Link>
-          {` `}<Button className="btn-icon btn-simple" onClick={this.handleCancelTransfer} style={{border:0}} color="primary" size="sm">
-          <i className="fa fa-times" />
-        </Button>
-        </>;
-      default:
-        return null;
-    }
-  }
-
-  renderBtnCTN(link) {
+  renderBtnCTN(ref) {
+    let link = "/user/transfers/"+ref;
     return(
         <>
-          <Button className="btn-icon btn-simple" onClick={this.handleAcceptTransfer} style={{border:0}} color="primary" size="sm">
+          <Button className="btn-icon btn-simple" onClick={()=>this.handleAcceptTransfer(ref)} style={{border:0}} color="primary" size="sm">
             <i className="fa fa-check"></i>
           </Button>{` `}
-          <Button className="btn-icon btn-simple" onClick={this.handleCancelTransfer} style={{border:0}} color="primary" size="sm">
+          <Button className="btn-icon btn-simple" onClick={()=>this.handleRefuseTransfer(ref)} style={{border:0}} color="primary" size="sm">
             <i className="fa fa-times" />
           </Button>{` `}
           <Link to={link}><Button className="btn-icon btn-simple" style={{border:0}} color="primary" size="sm">
@@ -272,12 +319,13 @@ class TransfersTable extends React.Component {
     );
   }
 
-  renderBtnCTRL(link) {
+  renderBtnCTRL(ref) {
+    let link = "/user/transfers/"+ref;
     return(
         <>
           {this.renderBtnCTN(link)}
           {` `}
-          <Button className="btn-icon btn-simple" onClick={this.handleSendTransfer} style={{border:0}} color="primary" size="sm">
+          <Button className="btn-icon btn-simple" onClick={()=>this.handleSendTransfer(ref)} style={{border:0}} color="primary" size="sm">
             <i className="fa fa-paper-plane"></i>
           </Button>
         </>
@@ -294,9 +342,9 @@ class TransfersTable extends React.Component {
         transactionAmount: transfer.amount,
         stateAction:
             this.props.currentUser.role==="ROLE_AGENT"
-                ? this.renderSwitch(transfer.state,"/user/transfers/"+transfer.id)
-                : this.props.currentUser.role==="ROLE_CTN"? this.renderBtnCTN("/user/transfers/"+transfer.id)
-                : this.props.currentUser.role==="ROLE_CTRL"?this.renderBtnCTRL("/user/transfers/"+transfer.id):null
+                ? this.renderSwitch(transfer.state,transfer.reference)
+                : this.props.currentUser.role==="ROLE_CTN"? this.renderBtnCTN(transfer.reference)
+                : this.props.currentUser.role==="ROLE_CTRL"?this.renderBtnCTRL(transfer.reference):null
       };
     });
   }

@@ -103,6 +103,7 @@ class Dashboard extends React.Component {
   getRoutes = routes => {
     return routes.map((prop, key) => {
       if (prop.layout === "/user" || prop.layout === "/admin") {
+
           return (
               <MyRoute path={prop.layout + prop.path} history={this.props.history} component={prop.component} key={key} />
         );

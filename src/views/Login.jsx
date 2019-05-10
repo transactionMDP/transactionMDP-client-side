@@ -24,7 +24,7 @@ import {
 import Footer from "components/Footer/Footer.jsx";
 
 // API
-import {login} from "../util/APIUtils";
+import {login} from "../util/APIs";
 
 // Redux components
 import {connect} from "react-redux";
@@ -146,11 +146,6 @@ class Login extends React.Component {
                     title: 'Votre nom d\'utilisateur ou votre mot de passe est incorrect. Veuillez réessayer!'
                 });
             } else {
-                /************************************************
-                 * TESTTTTTTTTTTTTTTTTTT
-                 */
-                this.props.setAuthState(true);
-                this.props.history.push("/user/addUser");
                 // affichee un message d’erreur
                 Toast.fire({
                     type: 'warning',
