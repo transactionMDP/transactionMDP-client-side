@@ -11,14 +11,14 @@ const dashboardRoutesUser = [
         icon: "fa fa-retweet",
         component: TransferForm,
         layout: "/user"
-    },
+    }/*,
     {
         path: "/addUser",
         name: "Inscription",
         icon: "fa fa-retweet",
         component: RegisterForm,
         layout: "/user"
-    },
+    }*/,
     {
         path: "/transfers/:id",
         name: "Virement",

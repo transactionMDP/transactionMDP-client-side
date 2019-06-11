@@ -123,12 +123,13 @@ class Login extends React.Component {
         });
 
         // Envoyer l’identité de l’utilisateur au serveur puis récupérer la réponse
+        let resp;
         login(loginRequest)
             // Si l'authentification est réussie
             .then(response => {
                 // enregistrer le token
                 localStorage.setItem(ACCESS_TOKEN, response.accessToken);
-                // affichee un message de succès
+                // afficher un message de succès
                 Toast.fire({
                     type: 'success',
                     title: 'Vous êtes connecté avec succès.'
@@ -192,7 +193,7 @@ class Login extends React.Component {
                                                     >
                                                         <InputGroupAddon addonType="prepend">
                                                             <InputGroupText>
-                                                                <i className="tim-icons icon-email-85"/>
+                                                                <i className="tim-icons icon-single-02"/>
                                                             </InputGroupText>
                                                         </InputGroupAddon>
                                                         <Input

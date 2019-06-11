@@ -14,7 +14,7 @@ class Footer extends React.Component {
               <NavLink href="javascript:void(0)">Banque Populaire</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="javascript:void(0)">About Us</NavLink>
+              <NavLink href="javascript:void(0)">À propos</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="javascript:void(0)">Blog</NavLink>

@@ -337,8 +337,8 @@ class TransfersTable extends React.Component {
       return {
         reference: transfer.reference,
         operationDate: formatDateTime(transfer.operationDate),
-        principalAccount: transfer.creditAccount.accountNumber,
-        beneficiaryAccount: transfer.debitAccount.accountNumber,
+        principalAccount: transfer.debitAccount.accountNumber,
+        beneficiaryAccount: transfer.creditAccount.accountNumber,
         transactionAmount: transfer.amount,
         stateAction:
             this.props.currentUser.role==="ROLE_AGENT"
